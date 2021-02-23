@@ -1,0 +1,89 @@
+{
+    "easycom": {
+        "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+    },
+    "pages": [{
+            "path": "pages/login/index",
+            "style": {
+                "navigationBarTitleText": "登录页面"
+            }
+        }, {
+            "path": "pages/home/index",
+            "style": {
+                "navigationBarTitleText": "首页"
+            }
+        },
+        {
+            "path": "pages/category/index",
+            "style": {
+                "navigationBarTitleText": "分类"
+            }
+        },
+        {
+            "path": "pages/buycart/index",
+            "style": {
+                "navigationBarTitleText": "购物车"
+            }
+        },
+        {
+            "path": "pages/preview/index",
+            "style": {
+                "navigationBarTitleText": "预约"
+            }
+        },
+        {
+            "path": "pages/profile/index",
+            "style": {
+                "navigationBarTitleText": "我的"
+            }
+        }, {
+            "path": "pages/saveInfo/index",
+            "style": {
+                "navigationBarTitleText": "信息完善"
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "饲宠之家",
+        "navigationBarBackgroundColor": "#2e2e2e",
+        "backgroundColor": "#ffffff"
+    },
+    "tabBar": {
+        "color": "#999",
+        "selectedColor": "#ff2d4a",
+        "backgroundColor": "#fafafa",
+        "position": "bottom",
+        "borderStyle": "black",
+        "list": [{
+                "pagePath": "pages/home/index",
+                "text": "首页",
+                "iconPath": "/static/icons/home.png",
+                "selectedIconPath": "/static/icons/home-active.png"
+            },
+            {
+                "pagePath": "pages/category/index",
+                "text": "分类",
+                "iconPath": "/static/icons/category.png",
+                "selectedIconPath": "/static/icons/category-active.png"
+            },
+            {
+                "pagePath": "pages/buycart/index",
+                "text": "购物车",
+                "iconPath": "/static/icons/buycart.png",
+                "selectedIconPath": "/static/icons/buycart-active.png"
+            },
+            {
+                "pagePath": "pages/preview/index",
+                "text": "预约",
+                "iconPath": "/static/icons/preview.png",
+                "selectedIconPath": "/static/icons/preview-active.png"
+            }, {
+                "pagePath": "pages/profile/index",
+                "text": "我的",
+                "iconPath": "/static/icons/profile.png",
+                "selectedIconPath": "/static/icons/profile-active.png"
+            }
+        ]
+    }
+}

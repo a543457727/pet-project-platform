@@ -1,0 +1,41 @@
+{
+  "name": "pet-manage-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a543457727/pet-manage-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a543457727/pet-manage-system/issues"
+  },
+  "homepage": "https://github.com/a543457727/pet-manage-system#readme",
+  "dependencies": {
+    "ajv": "^7.0.4",
+    "ajv-errors": "^2.0.0",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "jimp": "^0.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-cors": "^0.0.16",
+    "koa-multer": "^1.0.2",
+    "koa-parameter": "^3.0.1",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "koa-validator": "^0.6.4",
+    "koa2-cors": "^2.0.6",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

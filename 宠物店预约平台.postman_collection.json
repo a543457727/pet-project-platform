@@ -1,0 +1,1530 @@
+{
+	"id": "34ebb8e0-1b55-4b35-984b-7089b77597bf",
+	"name": "宠物店预约平台",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [],
+	"folders_order": [
+		"c350249b-2608-490d-abb0-62c6231dac43",
+		"a62b6c54-774e-4176-9e79-80da3d952cd6",
+		"24a95073-ac3f-4a94-9f87-78bb057f8df8",
+		"4c4df168-8fb6-4ea3-8cf9-5f17b9288cca",
+		"69f4fce1-efca-430c-8bc9-ff125a408c4d",
+		"94ac0f48-0293-4796-9cdf-b9b34cde9d5a",
+		"89e5f1aa-75c2-41c2-8662-a7817d2b5a81",
+		"2aa450a7-1f9b-4a06-9cb4-d0c72efb8c19",
+		"0b02bcba-299f-4ace-9b9b-64adff75b9bf"
+	],
+	"protocolProfileBehavior": {},
+	"folders": [
+		{
+			"id": "c350249b-2608-490d-abb0-62c6231dac43",
+			"name": "后台用户模块",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "34ebb8e0-1b55-4b35-984b-7089b77597bf",
+			"folder": null,
+			"order": [
+				"fef7ea6a-26de-4538-9140-e40ec2acac4e",
+				"8959ba6b-9c16-430a-bc98-cf2d012e89e5",
+				"db017b5a-e02b-4ce2-99bc-73dcc862a20f",
+				"34133ab4-0a4d-4c81-a08f-b5f5f36a45fa"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"id": "24a95073-ac3f-4a94-9f87-78bb057f8df8",
+			"name": "品类模块",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "34ebb8e0-1b55-4b35-984b-7089b77597bf",
+			"folder": null,
+			"order": [
+				"049584de-9711-4240-bdea-5d2ad7f864d5",
+				"bec5f212-acf7-4298-a6b0-11b4f3add4c7",
+				"e7c7d7a7-641b-4bcc-9dbb-f77e8f6955c3",
+				"39bdbeb1-c5bc-443c-ad29-8d08f1cafe55"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"id": "69f4fce1-efca-430c-8bc9-ff125a408c4d",
+			"name": "商品二级类目模块",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "34ebb8e0-1b55-4b35-984b-7089b77597bf",
+			"folder": null,
+			"order": [
+				"825860cd-28a7-43ae-889e-149136e379a6",
+				"9d97e2d4-793d-412e-9b5d-0c39786bc70d",
+				"b9942292-3ea0-4657-b5b5-c6a74e2e67bf",
+				"8e40bb9b-3252-4817-8ed8-d3091952e963",
+				"862e5c99-c656-4899-a377-2e14205971c0",
+				"e5870113-9394-451c-87f7-6102376224aa"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"id": "4c4df168-8fb6-4ea3-8cf9-5f17b9288cca",
+			"name": "商品分类模块",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "34ebb8e0-1b55-4b35-984b-7089b77597bf",
+			"folder": null,
+			"order": [
+				"b8e09f99-c136-445e-a0f2-67da94c7f5f8",
+				"81ab1c1b-68f9-4c0a-b058-d03fed447edf",
+				"32db0e95-68f0-4a90-ac22-838b316fb5a8",
+				"57c354fd-bf84-4164-b216-6a00c156b248",
+				"e7312950-75f4-48d9-85eb-d5a47f314981"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"id": "94ac0f48-0293-4796-9cdf-b9b34cde9d5a",
+			"name": "商品模块",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "34ebb8e0-1b55-4b35-984b-7089b77597bf",
+			"folder": null,
+			"order": [
+				"100245a6-1439-4469-b556-dc605b3f8278",
+				"986635b2-f215-4f6a-9e85-6459a5201bf9",
+				"0664e8be-c2c1-4d8d-8d5f-a47acb517acb",
+				"51220b2a-9e7d-4d3a-bbd4-4ad7ca819790",
+				"2ab7d839-e876-4f2c-b5e3-0b0ef3d2ca35",
+				"4d8ddcc5-9123-4cca-b7de-c03a84d39118",
+				"ee3ff499-c8e5-4c53-ae26-bc9bb7354747"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"id": "2aa450a7-1f9b-4a06-9cb4-d0c72efb8c19",
+			"name": "店铺模块",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "34ebb8e0-1b55-4b35-984b-7089b77597bf",
+			"folder": null,
+			"order": [
+				"9c0bba6a-145e-4713-b374-b6b6c9c9a229",
+				"fd336161-613d-49d7-9b0a-685a9cc0fae2",
+				"8968d302-3b09-461a-97df-fb88aa22e001",
+				"d6aa2ef6-9095-4ef2-8a62-f4e90f57cfb3"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"id": "89e5f1aa-75c2-41c2-8662-a7817d2b5a81",
+			"name": "文件上传",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "34ebb8e0-1b55-4b35-984b-7089b77597bf",
+			"folder": null,
+			"order": [
+				"7eb19cea-6dfd-44fb-9921-3a4a1a60e303",
+				"95285122-8820-4dfc-861b-b655029200c7",
+				"5635b26d-4777-4114-b288-eead82fcc78d"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"id": "a62b6c54-774e-4176-9e79-80da3d952cd6",
+			"name": "服务管理模块",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "34ebb8e0-1b55-4b35-984b-7089b77597bf",
+			"folder": null,
+			"order": [
+				"1579f1c1-b9bb-4c88-b0cd-8d8e4bf5468a",
+				"b5b281dd-0ed9-47ea-b7e3-e92a858a528d",
+				"83af62bf-16ed-4c0d-ab75-e8a9baeb5c66",
+				"8dcc6c02-5d64-41a7-a00a-37666fc2a42a",
+				"eb32b282-ba86-4110-8dab-1e12f3bb3f30"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"id": "0b02bcba-299f-4ace-9b9b-64adff75b9bf",
+			"name": "用户登录模块",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "34ebb8e0-1b55-4b35-984b-7089b77597bf",
+			"folder": null,
+			"order": [
+				"cf4b6eee-2107-4460-8114-f2addb557980"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"requests": [
+		{
+			"id": "049584de-9711-4240-bdea-5d2ad7f864d5",
+			"name": "创建品类",
+			"url": "{{baseURL}}/variety",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "24a95073-ac3f-4a94-9f87-78bb057f8df8",
+			"rawModeData": "{\r\n    \"name\": \"银渐层23\",\r\n    \"smallWeight\": \"10\",\r\n    \"bigWeight\": \"30\",\r\n    \"shopId\": 1\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "0664e8be-c2c1-4d8d-8d5f-a47acb517acb",
+			"name": "修改商品信息",
+			"url": "{{baseURL}}/goods/1",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "94ac0f48-0293-4796-9cdf-b9b34cde9d5a",
+			"rawModeData": "{\r\n    \"name\": \"哈哈哈4\",\r\n    \"shopId\": 1,\r\n    \"categoryItemId\": 13,\r\n    \"price\": 100.1,\r\n    \"desc\": \"我是一号种子选手\",\r\n    \"stock\":100\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "100245a6-1439-4469-b556-dc605b3f8278",
+			"name": "新增商品",
+			"url": "{{baseURL}}/goods",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "94ac0f48-0293-4796-9cdf-b9b34cde9d5a",
+			"rawModeData": "{\r\n    \"name\": \"猫咪健胃宝2131\",\r\n    \"shopId\": 1,\r\n    \"categoryItemId\": 13,\r\n    \"price\": 100.1,\r\n    \"desc\": \"我是一个小可爱\",\r\n    \"stock\":100,\r\n    \"flag\":1\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "1579f1c1-b9bb-4c88-b0cd-8d8e4bf5468a",
+			"name": "创建服务",
+			"url": "{{baseURL}}/server",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "a62b6c54-774e-4176-9e79-80da3d952cd6",
+			"rawModeData": "{\r\n    \"name\": \"\"\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "2ab7d839-e876-4f2c-b5e3-0b0ef3d2ca35",
+			"name": "删除单条商品",
+			"url": "{{baseURL}}/goods/1",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "94ac0f48-0293-4796-9cdf-b9b34cde9d5a",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "32db0e95-68f0-4a90-ac22-838b316fb5a8",
+			"name": "修改商品",
+			"url": "{{baseURL}}/category/30/",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "4c4df168-8fb6-4ea3-8cf9-5f17b9288cca",
+			"rawModeData": "{\r\n    \"name\":\"66666\"\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "34133ab4-0a4d-4c81-a08f-b5f5f36a45fa",
+			"name": "创建店铺",
+			"url": "{{baseURL}}/shop",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "c350249b-2608-490d-abb0-62c6231dac43",
+			"rawModeData": "{\r\n    \"shopName\": \"旺旺小店铺1\"\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "39bdbeb1-c5bc-443c-ad29-8d08f1cafe55",
+			"name": "删除品类",
+			"url": "{{baseURL}}/variety/4",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsInJlYWxOYW1lIjoi6YKT57uN6b6ZIiwic2hvcE5hbWUiOiLlsI_pgpPmnYLotKfpk7oiLCJpYXQiOjE2MTE5MDA3NjUsImV4cCI6MTYxMTk4NzE2NX0.E_sCL0eXN6tuey8Zkxm-ydmD-TV-l9-MVYdPPtsigIbHenmpKndEAKd6ZOO7RAUCrtAu5E0adtFmOz4lai-Ysc58NnqK1PJVGPKrcijLYSL0HcPNgOYoIfBj4ALWKewwNrhhmwCVlZOAz6l0lUp6bijxMq4q8o0uhvvk0d75sjU"
+					}
+				]
+			},
+			"events": [],
+			"folder": "24a95073-ac3f-4a94-9f87-78bb057f8df8",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "4d8ddcc5-9123-4cca-b7de-c03a84d39118",
+			"name": "删除多条商品",
+			"url": "{{baseURL}}/goods",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "94ac0f48-0293-4796-9cdf-b9b34cde9d5a",
+			"rawModeData": "{\r\n    \"arr\": [2,3]\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "51220b2a-9e7d-4d3a-bbd4-4ad7ca819790",
+			"name": "修改商品上架状态",
+			"url": "{{baseURL}}/goods/1",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "PATCH",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "94ac0f48-0293-4796-9cdf-b9b34cde9d5a",
+			"rawModeData": "{\r\n    \"flag\": 1,\r\n    \"shopId\": 1\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "5635b26d-4777-4114-b288-eead82fcc78d",
+			"name": "商品图片上传",
+			"url": "http://127.0.0.1:8888/upload/goods",
+			"description": "",
+			"data": [
+				{
+					"key": "file",
+					"value": "/C:/Users/admin/Desktop/shuzi/微信图片_20200908164228.jpg",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "89e5f1aa-75c2-41c2-8662-a7817d2b5a81",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "57c354fd-bf84-4164-b216-6a00c156b248",
+			"name": "删除商品",
+			"url": "{{baseURL}}/category",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsInJlYWxOYW1lIjoi6YKT57uN6b6ZIiwic2hvcE5hbWUiOiLlsI_pgpPmnYLotKfpk7oiLCJpYXQiOjE2MTI0OTAyMDAsImV4cCI6MTYxMjU3NjYwMH0.fKhBX0AFsBfz9iwMJ2ikEqL9eEDAb3OM-DPawSeOFa-TN5PWj8Hy-welSTZXXAIE3PVPmm2HemhFhKnoaMPGgDxAg6hKl-o2L5qYYPilrJ3j7a69KjgXXk5riR8tNHtxh3wC0hb1e9e2PqHiEB7Rhr0pJHn6BKIErKS1-9eEG54"
+					}
+				]
+			},
+			"events": [],
+			"folder": "4c4df168-8fb6-4ea3-8cf9-5f17b9288cca",
+			"rawModeData": "{\r\n    \"arr\":[\"2\",\"3\",\"4\"]\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "7eb19cea-6dfd-44fb-9921-3a4a1a60e303",
+			"name": "二级商品分类图片上传",
+			"url": "http://127.0.0.1:8888/upload/categoryItem",
+			"description": "",
+			"data": [
+				{
+					"key": "file",
+					"value": "/C:/Users/admin/Desktop/shuzi/微信图片_202009081642281.jpg",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "89e5f1aa-75c2-41c2-8662-a7817d2b5a81",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "81ab1c1b-68f9-4c0a-b058-d03fed447edf",
+			"name": "查询商品列表(分页)",
+			"url": "{{baseURL}}/category?page=1&size=10&shopId=1",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				},
+				{
+					"key": "size",
+					"value": "10",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				},
+				{
+					"key": "shopId",
+					"value": "1",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "4c4df168-8fb6-4ea3-8cf9-5f17b9288cca",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "825860cd-28a7-43ae-889e-149136e379a6",
+			"name": "创建商品二级类目",
+			"url": "{{baseURL}}/categoryItem",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "69f4fce1-efca-430c-8bc9-ff125a408c4d",
+			"rawModeData": "{\r\n    \"name\":\"hahahah121\",\r\n    \"pictureUrl\": \"11111\",\r\n    \"categoryId\": 33,\r\n    \"shopId\": 1\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "83af62bf-16ed-4c0d-ab75-e8a9baeb5c66",
+			"name": "修改服务",
+			"url": "{{baseURL}}/server/16",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "a62b6c54-774e-4176-9e79-80da3d952cd6",
+			"rawModeData": "{\r\n    \"name\": \"洗澡221\"\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "862e5c99-c656-4899-a377-2e14205971c0",
+			"name": "单条删除二级类目",
+			"url": "{{baseURL}}/categoryItem/10",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "69f4fce1-efca-430c-8bc9-ff125a408c4d",
+			"rawModeData": "",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "8959ba6b-9c16-430a-bc98-cf2d012e89e5",
+			"name": "后台商家登录",
+			"url": "{{baseURL}}/login",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "c953756c-6c17-4de5-beaf-879f28e781f4",
+						"exec": [
+							"var res = pm.response.json();\r",
+							"pm.globals.set('token',res.data.token)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "c350249b-2608-490d-abb0-62c6231dac43",
+			"rawModeData": "{\r\n    \"username\": \"admin\",\r\n    \"password\": \"123456\"\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "8968d302-3b09-461a-97df-fb88aa22e001",
+			"name": "更新店铺信息",
+			"url": "{{baseURL}}/shop/16",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "2aa450a7-1f9b-4a06-9cb4-d0c72efb8c19",
+			"rawModeData": "{\r\n    \"name\": \"heieheih\"\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "8dcc6c02-5d64-41a7-a00a-37666fc2a42a",
+			"name": "删除服务",
+			"url": "{{baseURL}}/server/15",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "a62b6c54-774e-4176-9e79-80da3d952cd6",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "8e40bb9b-3252-4817-8ed8-d3091952e963",
+			"name": "更新商品状态",
+			"url": "{{baseURL}}/categoryItem/10",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "PATCH",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "69f4fce1-efca-430c-8bc9-ff125a408c4d",
+			"rawModeData": "{\r\n    \"status\": 0,\r\n    \"shopId\": 1\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "95285122-8820-4dfc-861b-b655029200c7",
+			"name": "获取图片",
+			"url": "{{baseURL}}/public/uploads/categoryItem/1613804877358.jpg",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "89e5f1aa-75c2-41c2-8662-a7817d2b5a81",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "986635b2-f215-4f6a-9e85-6459a5201bf9",
+			"name": "获取商品列表",
+			"url": "{{baseURL}}/goods?page=1&size=10&shopId=1&name=猫咪",
+			"description": "",
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				},
+				{
+					"key": "size",
+					"value": "10",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				},
+				{
+					"key": "shopId",
+					"value": "1",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				},
+				{
+					"key": "categoryItemId",
+					"value": "15",
+					"equals": true,
+					"description": null,
+					"enabled": false
+				},
+				{
+					"key": "name",
+					"value": "猫咪",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "94ac0f48-0293-4796-9cdf-b9b34cde9d5a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "9c0bba6a-145e-4713-b374-b6b6c9c9a229",
+			"name": "创建店铺",
+			"url": "{{baseURL}}/shop",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "userId",
+					"value": "1",
+					"equals": true,
+					"description": null,
+					"enabled": false
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "2aa450a7-1f9b-4a06-9cb4-d0c72efb8c19",
+			"rawModeData": "{\r\n    \"userId\": 1,\r\n    \"shopName\": \"嘿嘿你猜是什么\"\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "9d97e2d4-793d-412e-9b5d-0c39786bc70d",
+			"name": "获取分页数据",
+			"url": "{{baseURL}}/categoryItem?page=1&size=10&shopId=1&name=haha",
+			"description": "",
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				},
+				{
+					"key": "size",
+					"value": "10",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				},
+				{
+					"key": "shopId",
+					"value": "1",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				},
+				{
+					"key": "categoryId",
+					"value": "33",
+					"equals": true,
+					"description": null,
+					"enabled": false
+				},
+				{
+					"key": "name",
+					"value": "haha",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "69f4fce1-efca-430c-8bc9-ff125a408c4d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "b5b281dd-0ed9-47ea-b7e3-e92a858a528d",
+			"name": "获取服务数据（分页）",
+			"url": "{{baseURL}}/server?page=1&size=10",
+			"description": "",
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				},
+				{
+					"key": "size",
+					"value": "10",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "a62b6c54-774e-4176-9e79-80da3d952cd6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "b8e09f99-c136-445e-a0f2-67da94c7f5f8",
+			"name": "新增商品分类",
+			"url": "{{baseURL}}/category",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "4c4df168-8fb6-4ea3-8cf9-5f17b9288cca",
+			"rawModeData": "{\r\n    \"name\": \"猫粮2708901\",\r\n    \"shopId\":1\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "b9942292-3ea0-4657-b5b5-c6a74e2e67bf",
+			"name": "更新商品信息",
+			"url": "{{baseURL}}/categoryItem/10",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "69f4fce1-efca-430c-8bc9-ff125a408c4d",
+			"rawModeData": "{\r\n    \"name\": \"1231\",\r\n    \"shopId\": 1\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "bec5f212-acf7-4298-a6b0-11b4f3add4c7",
+			"name": "获取品类（分页）",
+			"url": "{{baseURL}}/variety?page=1&size=10",
+			"description": "",
+			"data": [
+				{
+					"key": "",
+					"value": [],
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				},
+				{
+					"key": "size",
+					"value": "10",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "24a95073-ac3f-4a94-9f87-78bb057f8df8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "cf4b6eee-2107-4460-8114-f2addb557980",
+			"name": "微信登录",
+			"url": "{{baseURL}}/wx/login",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "0b02bcba-299f-4ace-9b9b-64adff75b9bf",
+			"rawModeData": "{\r\n    \"code\": \"073naUkl2rqkz64DH9ll2BgbI50naUk8\"\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "d6aa2ef6-9095-4ef2-8a62-f4e90f57cfb3",
+			"name": "修改店铺状态",
+			"url": "{{baseURL}}/shop/16",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "PATCH",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "2aa450a7-1f9b-4a06-9cb4-d0c72efb8c19",
+			"rawModeData": "{\r\n    \"status\": 0\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "db017b5a-e02b-4ce2-99bc-73dcc862a20f",
+			"name": "获取用户信息",
+			"url": "{{baseURL}}/userInfo",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "c350249b-2608-490d-abb0-62c6231dac43",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "e5870113-9394-451c-87f7-6102376224aa",
+			"name": "删除多条类目",
+			"url": "{{baseURL}}/categoryItem",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "69f4fce1-efca-430c-8bc9-ff125a408c4d",
+			"rawModeData": "{\r\n    \"arr\": [11,12]\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "e7312950-75f4-48d9-85eb-d5a47f314981",
+			"name": "获取所有商品分类",
+			"url": "{{baseURL}}/category/all",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "size",
+					"value": "10",
+					"equals": true,
+					"description": "",
+					"enabled": false
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "4c4df168-8fb6-4ea3-8cf9-5f17b9288cca",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "{\r\n    \"shopId\": 1\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "e7c7d7a7-641b-4bcc-9dbb-f77e8f6955c3",
+			"name": "修改品类",
+			"url": "{{baseURL}}/variety/12",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "24a95073-ac3f-4a94-9f87-78bb057f8df8",
+			"rawModeData": "{\r\n    \"name\": \"仓鼠1\",\r\n    \"bigWeight\": \"300\",\r\n    \"shopId\": 1\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "eb32b282-ba86-4110-8dab-1e12f3bb3f30",
+			"name": "修改服务状态",
+			"url": "{{baseURL}}/server/8/switch",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "PATCH",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "a62b6c54-774e-4176-9e79-80da3d952cd6",
+			"rawModeData": "{\r\n    \"status\": 0\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "ee3ff499-c8e5-4c53-ae26-bc9bb7354747",
+			"name": "通过商品ID获取商品",
+			"url": "{{baseURL}}/goods/4",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "shopId",
+					"value": "1",
+					"equals": true,
+					"description": null,
+					"enabled": false
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "94ac0f48-0293-4796-9cdf-b9b34cde9d5a",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "fd336161-613d-49d7-9b0a-685a9cc0fae2",
+			"name": "获取店铺信息",
+			"url": "{{baseURL}}/shop?page=1&size=10",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "userId",
+					"value": "39",
+					"equals": true,
+					"description": null,
+					"enabled": false
+				},
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				},
+				{
+					"key": "size",
+					"value": "10",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "2aa450a7-1f9b-4a06-9cb4-d0c72efb8c19",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "fef7ea6a-26de-4538-9140-e40ec2acac4e",
+			"name": "后台商家注册",
+			"url": "{{baseURL}}/register",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "c350249b-2608-490d-abb0-62c6231dac43",
+			"rawModeData": "{\r\n    \"username\": \"admin\",\r\n    \"password\": \"123456\",\r\n    \"realName\": \"邓绍龙\"\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}
