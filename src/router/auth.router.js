@@ -16,9 +16,8 @@ const {
     getUserInfo,
 } = require('../controller/admin.controller')
 
-const {
-    getUserInfoByUid
-} = require('../controller/user.controller')
+const user = require('../controller/user.controller')
+
 const {
     genValidator
 } = require('../middleware/validate.middleware');
@@ -31,6 +30,6 @@ router.post('/login', genValidator(valdidate.loginValidate), md5password, vftSig
 // 获取用户信息接口
 router.get('/userInfo', decodeJwt, getUserInfo);
 // 微信登录
-router.post('/wx/login', wxLogin, getUserInfoByUid);
+router.post('/wx/login', wxLogin, user.getUserInfoByUid, user.wxLogin);
 
 module.exports = router

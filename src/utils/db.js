@@ -16,7 +16,6 @@ class Db {
         }
         let statement = this.createSQL('add', table, fields);
         const result = await this.query(statement, values)
-        console.log("result", result);
         return result
     }
     // 删除方法

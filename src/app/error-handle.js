@@ -37,7 +37,9 @@ const errorhandle = (error, ctx) => {
         case errorTypes.GOOD_IS_EXIST:
             ajaxReturn.msg = '该商品名称已存在';
         case errorTypes.SHOP_IS_EXIST:
-            ajaxReturn.msg = '店铺已经存在'
+            ajaxReturn.msg = '店铺已经存在';
+        case errorTypes.WX_CREATE_ERROR:
+            ajaxReturn.msg = "信息完善失败,请稍后尝试"
     }
     ctx.body = ajaxReturn
 }

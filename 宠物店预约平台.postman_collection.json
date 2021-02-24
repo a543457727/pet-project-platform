@@ -138,7 +138,8 @@
 			"order": [
 				"7eb19cea-6dfd-44fb-9921-3a4a1a60e303",
 				"95285122-8820-4dfc-861b-b655029200c7",
-				"5635b26d-4777-4114-b288-eead82fcc78d"
+				"5635b26d-4777-4114-b288-eead82fcc78d",
+				"2f44bcff-7e38-47e8-b02b-dfa12acd811d"
 			],
 			"folders_order": [],
 			"protocolProfileBehavior": {}
@@ -170,7 +171,8 @@
 			"collection": "34ebb8e0-1b55-4b35-984b-7089b77597bf",
 			"folder": null,
 			"order": [
-				"cf4b6eee-2107-4460-8114-f2addb557980"
+				"cf4b6eee-2107-4460-8114-f2addb557980",
+				"c422f3f1-2a76-48e3-8e9e-cd2405816db4"
 			],
 			"folders_order": [],
 			"protocolProfileBehavior": {}
@@ -324,6 +326,24 @@
 			},
 			"events": [],
 			"folder": "94ac0f48-0293-4796-9cdf-b9b34cde9d5a",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "2f44bcff-7e38-47e8-b02b-dfa12acd811d",
+			"name": "用户头像上传",
+			"url": "",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "89e5f1aa-75c2-41c2-8662-a7817d2b5a81",
 			"headers": "",
 			"pathVariables": {}
 		},
@@ -1196,6 +1216,24 @@
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "c422f3f1-2a76-48e3-8e9e-cd2405816db4",
+			"name": "微信信息完善",
+			"url": "",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "0b02bcba-299f-4ace-9b9b-64adff75b9bf",
 			"headers": "",
 			"pathVariables": {}
 		},

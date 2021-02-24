@@ -11,7 +11,7 @@
  Target Server Version : 80022
  File Encoding         : 65001
 
- Date: 23/02/2021 18:07:10
+ Date: 24/02/2021 18:01:53
 */
 
 SET NAMES utf8mb4;
@@ -211,9 +211,9 @@ INSERT INTO `pet_shop` VALUES (14, '123', 39, '2021-02-22 11:10:15', '2021-02-22
 DROP TABLE IF EXISTS `pet_user`;
 CREATE TABLE `pet_user`  (
   `id` int(0) NOT NULL AUTO_INCREMENT,
-  `uid` int(0) NULL DEFAULT NULL,
+  `uid` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL,
   `username` varchar(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL,
-  `password` varchar(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL,
+  `password` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL,
   `phone` char(11) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL,
   `address` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL,
   `realName` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL,
@@ -225,11 +225,13 @@ CREATE TABLE `pet_user`  (
   UNIQUE INDEX `username`(`username`) USING BTREE,
   UNIQUE INDEX `password`(`password`) USING BTREE,
   UNIQUE INDEX `phone`(`phone`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 24 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of pet_user
 -- ----------------------------
+INSERT INTO `pet_user` VALUES (15, '99663', NULL, '9966332', '13055212013', 'test', '1233', '白驹过隙', '2021-02-24 11:12:37', '2021-02-24 11:12:37', '123123');
+INSERT INTO `pet_user` VALUES (23, 'oyFvY5VK51ayj6mygq4q6abpA708', NULL, '666', '123456', '1321', '123', '邓', '2021-02-24 12:05:18', '2021-02-24 12:05:18', 'https://thirdwx.qlogo.cn/mmopen/vi_32/GEXOh75VLbQgcWkFtoUVM5YD74hrtHAhjU2oK3nMUDdokKIiaQfsGsUFLLwcyhKmZnQSfTBfuYQlYwns0bP7S2w/132');
 
 -- ----------------------------
 -- Table structure for pet_variety

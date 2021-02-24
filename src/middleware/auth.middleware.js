@@ -104,11 +104,9 @@ async function wxLogin(ctx, next) {
     }
     const res = await axios(params)
     if (res.data.errcode) {
-        console.log(9999);
         ctx.ajaxReturn.data = res.data;
         return ctx.body = ctx.ajaxReturn
     }
-    console.log(res.data);
     ctx.user = res.data
     await next()
 }

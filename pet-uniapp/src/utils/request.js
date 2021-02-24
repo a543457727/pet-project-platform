@@ -5,6 +5,9 @@ export default (params) => {
     return new Promise((resolve, reject) => {
         wx.request({
             ...params,
+            header: {
+                authorization: uni.getStorageSync('token') || ""
+            },
             success(res) {
                 resolve(res.data)
             },

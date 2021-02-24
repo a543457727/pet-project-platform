@@ -8,6 +8,7 @@ const SERVERNAME_IS_EXIST = 'servername_is_exist'
 const GOODSCATEGORY_IS_EXIST = 'goods_category_is_exist'
 const GOOD_IS_EXIST = 'goods_is_exist'
 const SHOP_IS_EXIST = 'shop_is_exist'
+const WX_CREATE_ERROR = 'wx_create_error'
 
 module.exports = {
     USERNAME_SHOPNAME_EXIST,
@@ -19,5 +20,6 @@ module.exports = {
     SERVERNAME_IS_EXIST,
     GOODSCATEGORY_IS_EXIST,
     GOOD_IS_EXIST,
-    SHOP_IS_EXIST
+    SHOP_IS_EXIST,
+    WX_CREATE_ERROR
 }

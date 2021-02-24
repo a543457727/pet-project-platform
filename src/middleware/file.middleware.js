@@ -37,6 +37,18 @@ const shops = Multer.diskStorage({
     }
 })
 
+const avatar = Multer.diskStorage({
+    //文件保存路径
+    destination: function (req, file, cb) {
+        cb(null, `public/uploads/avatar/`)
+    },
+    //修改文件名称
+    filename: function (req, file, cb) {
+        var fileFormat = (file.originalname).split("."); //以点分割成数组，数组的最后一项就是后缀名
+        cb(null, Date.now() + "." + fileFormat[fileFormat.length - 1]);
+    }
+})
+
 
 const categoryItemUpload = Multer({
     storage: categoryItem
@@ -47,10 +59,14 @@ const goodsUpload = Multer({
 const shopUpload = Multer({
     storage: shops
 })
+const avatarUpload = Multer({
+    storage: avatar
+})
 
 const categoryHandle = categoryItemUpload.single('file')
 const goodsHandle = goodsUpload.single('file')
 const shopHandle = shopUpload.single('file')
+const avatarHandle = avatarUpload.single('file')
 
 const pictureResize = async (ctx, next) => {
     const file = ctx.req.file;
@@ -69,5 +85,6 @@ module.exports = {
     categoryHandle,
     goodsHandle,
     shopHandle,
-    pictureResize
+    pictureResize,
+    avatarHandle
 }

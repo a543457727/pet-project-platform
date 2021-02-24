@@ -1,6 +1,3 @@
-const {
-    param
-} = require('../router/auth.router');
 const services = require('../services/variety.services')
 class VarietyController {
     async createVariety(ctx) {
