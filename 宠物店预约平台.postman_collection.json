@@ -172,13 +172,38 @@
 			"folder": null,
 			"order": [
 				"cf4b6eee-2107-4460-8114-f2addb557980",
-				"c422f3f1-2a76-48e3-8e9e-cd2405816db4"
+				"c422f3f1-2a76-48e3-8e9e-cd2405816db4",
+				"b3144e8e-e9f5-440d-a31d-ce6bfb233329",
+				"029ec2d8-6402-44e8-88c2-c393c24fb1aa"
 			],
 			"folders_order": [],
 			"protocolProfileBehavior": {}
 		}
 	],
 	"requests": [
+		{
+			"id": "029ec2d8-6402-44e8-88c2-c393c24fb1aa",
+			"name": "用户注册",
+			"url": "{{baseURL}}/user/register",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "0b02bcba-299f-4ace-9b9b-64adff75b9bf",
+			"rawModeData": "{\r\n    \"username\": \"test\",\r\n    \"password\": \"123456\",\r\n    \"nick\": \"hhh\",\r\n    \"realName\": \"dsl\",\r\n    \"phone\": 1111111,\r\n    \"address\": \"sdfasfdsf\",\r\n    \"avatar\": \"99999\"\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
 		{
 			"id": "049584de-9711-4240-bdea-5d2ad7f864d5",
 			"name": "创建品类",
@@ -1058,6 +1083,29 @@
 			"pathVariables": {}
 		},
 		{
+			"id": "b3144e8e-e9f5-440d-a31d-ce6bfb233329",
+			"name": "账号密码登录",
+			"url": "{{baseURL}}/user/login",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "0b02bcba-299f-4ace-9b9b-64adff75b9bf",
+			"rawModeData": "{\r\n    \"username\": \"admin\",\r\n    \"password\": \"123456\"\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
 			"id": "b5b281dd-0ed9-47ea-b7e3-e92a858a528d",
 			"name": "获取服务数据（分页）",
 			"url": "{{baseURL}}/server?page=1&size=10",
@@ -1222,18 +1270,23 @@
 		{
 			"id": "c422f3f1-2a76-48e3-8e9e-cd2405816db4",
 			"name": "微信信息完善",
-			"url": "",
+			"url": "{{baseURL}}/user/wxRegister",
 			"description": "",
-			"data": null,
-			"dataOptions": null,
-			"dataMode": null,
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
 			"headerData": [],
-			"method": "GET",
+			"method": "POST",
 			"pathVariableData": [],
 			"queryParams": [],
 			"auth": null,
 			"events": [],
 			"folder": "0b02bcba-299f-4ace-9b9b-64adff75b9bf",
+			"rawModeData": "{\r\n    \"avatar\":\"123123\",\r\n    \"password\":\"9966332\",\r\n    \"uid\":\"99663\",\r\n    \"nick\": \"白驹过隙\",\r\n    \"phone\":13055212013,\r\n    \"address\":\"test\",\r\n    \"realName\": \"1233\"\r\n}",
 			"headers": "",
 			"pathVariables": {}
 		},

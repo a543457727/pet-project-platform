@@ -9,7 +9,7 @@
     <button type="primary" @click="wxLogin">微信登录</button>
     <div class="btnGroup">
       <div class="other" @click="jumpLogin">账号登录</div>
-      <div class="other">注册</div>
+      <div class="other" @click="jumpReigster">注册</div>
     </div>
   </view>
 </template>
@@ -56,6 +56,11 @@ export default {
     jumpLogin() {
       uni.navigateTo({
         url: "/pages/login/index",
+      });
+    },
+    jumpReigster() {
+      uni.navigateTo({
+        url: "/pages/register/index",
       });
     },
   },

@@ -36,10 +36,22 @@ const errorhandle = (error, ctx) => {
             break;
         case errorTypes.GOOD_IS_EXIST:
             ajaxReturn.msg = '该商品名称已存在';
+            break;
         case errorTypes.SHOP_IS_EXIST:
             ajaxReturn.msg = '店铺已经存在';
+            break;
         case errorTypes.WX_CREATE_ERROR:
-            ajaxReturn.msg = "信息完善失败,请稍后尝试"
+            ajaxReturn.msg = "信息完善失败,请稍后尝试";
+            break;
+        case errorTypes.MAKE_TOKEN_ERROR:
+            ajaxReturn.msg = "密钥生成失败,请重新生成"
+            break;
+        case errorTypes.USER_IS_NOT_EXIST:
+            ajaxReturn.msg = "用户不存在";
+            break;
+        case errorTypes.USERNAME_IS_EXIST:
+            ajaxReturn.msg = "用户名已经存在"
+            break;
     }
     ctx.body = ajaxReturn
 }

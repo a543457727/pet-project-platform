@@ -9,6 +9,9 @@ const GOODSCATEGORY_IS_EXIST = 'goods_category_is_exist'
 const GOOD_IS_EXIST = 'goods_is_exist'
 const SHOP_IS_EXIST = 'shop_is_exist'
 const WX_CREATE_ERROR = 'wx_create_error'
+const MAKE_TOKEN_ERROR = 'make_token_error'
+const USER_IS_NOT_EXIST = "user_is_not_exist"
+const USERNAME_IS_EXIST = 'username_is_exist'
 
 module.exports = {
     USERNAME_SHOPNAME_EXIST,
@@ -21,5 +24,8 @@ module.exports = {
     GOODSCATEGORY_IS_EXIST,
     GOOD_IS_EXIST,
     SHOP_IS_EXIST,
-    WX_CREATE_ERROR
+    WX_CREATE_ERROR,
+    MAKE_TOKEN_ERROR,
+    USER_IS_NOT_EXIST,
+    USERNAME_IS_EXIST
 }

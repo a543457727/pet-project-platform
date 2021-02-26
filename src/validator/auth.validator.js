@@ -42,6 +42,8 @@ const login = {
         }
     }
 }
+
+
 const registerValidate = (data, key, ctx) => {
     return validate(register, data, ctx);
 }
@@ -50,7 +52,9 @@ const loginValidate = (data, key, ctx) => {
     return validate(login, data, ctx);
 }
 
+
+
 module.exports = {
     registerValidate,
-    loginValidate
+    loginValidate,
 }

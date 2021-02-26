@@ -11,7 +11,7 @@
  Target Server Version : 80022
  File Encoding         : 65001
 
- Date: 24/02/2021 18:01:53
+ Date: 26/02/2021 18:25:10
 */
 
 SET NAMES utf8mb4;
@@ -223,15 +223,13 @@ CREATE TABLE `pet_user`  (
   `avatar` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE,
   UNIQUE INDEX `username`(`username`) USING BTREE,
-  UNIQUE INDEX `password`(`password`) USING BTREE,
   UNIQUE INDEX `phone`(`phone`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 24 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 27 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of pet_user
 -- ----------------------------
-INSERT INTO `pet_user` VALUES (15, '99663', NULL, '9966332', '13055212013', 'test', '1233', '白驹过隙', '2021-02-24 11:12:37', '2021-02-24 11:12:37', '123123');
-INSERT INTO `pet_user` VALUES (23, 'oyFvY5VK51ayj6mygq4q6abpA708', NULL, '666', '123456', '1321', '123', '邓', '2021-02-24 12:05:18', '2021-02-24 12:05:18', 'https://thirdwx.qlogo.cn/mmopen/vi_32/GEXOh75VLbQgcWkFtoUVM5YD74hrtHAhjU2oK3nMUDdokKIiaQfsGsUFLLwcyhKmZnQSfTBfuYQlYwns0bP7S2w/132');
+INSERT INTO `pet_user` VALUES (29, NULL, 'admin', 'e10adc3949ba59abbe56e057f20f883e', '13999999', '1235645sdf', '123123d1fs2dfdf', 'dsl', '2021-02-26 09:59:26', '2021-02-26 09:59:26', 'http://127.0.0.1:8888/uploads/avatar/1614304759641.jpg');
 
 -- ----------------------------
 -- Table structure for pet_variety

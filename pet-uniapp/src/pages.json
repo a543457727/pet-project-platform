@@ -13,6 +13,11 @@
                 "navigationBarTitleText": "账号登录"
             }
         }, {
+            "path": "pages/register/index",
+            "style": {
+                "navigationBarTitleText": "账号注册"
+            }
+        }, {
             "path": "pages/saveInfo/index",
             "style": {
                 "navigationBarTitleText": "信息完善"
@@ -45,6 +50,12 @@
             "path": "pages/profile/index",
             "style": {
                 "navigationBarTitleText": "我的"
+            }
+        },
+        {
+            "path": "pages/main/index",
+            "style": {
+                "navigationBarTitleText": "饲宠之家"
             }
         }
     ],
