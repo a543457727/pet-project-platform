@@ -2,7 +2,13 @@
     "easycom": {
         "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
     },
-    "pages": [{
+    "pages": [   
+        {
+            "path": "pages/home/index",
+            "style": {
+                "navigationBarTitleText": "首页"
+            }
+        },{
             "path": "pages/index/index",
             "style": {
                 "navigationBarTitleText": "饲宠之家"
@@ -21,11 +27,6 @@
             "path": "pages/saveInfo/index",
             "style": {
                 "navigationBarTitleText": "信息完善"
-            }
-        }, {
-            "path": "pages/home/index",
-            "style": {
-                "navigationBarTitleText": "首页"
             }
         },
         {
@@ -79,7 +80,7 @@
             },
             {
                 "pagePath": "pages/category/index",
-                "text": "分类",
+                "text": "消息",
                 "iconPath": "/static/icons/category.png",
                 "selectedIconPath": "/static/icons/category-active.png"
             },
@@ -88,13 +89,7 @@
                 "text": "购物车",
                 "iconPath": "/static/icons/buycart.png",
                 "selectedIconPath": "/static/icons/buycart-active.png"
-            },
-            {
-                "pagePath": "pages/preview/index",
-                "text": "预约",
-                "iconPath": "/static/icons/preview.png",
-                "selectedIconPath": "/static/icons/preview-active.png"
-            }, {
+            },{
                 "pagePath": "pages/profile/index",
                 "text": "我的",
                 "iconPath": "/static/icons/profile.png",
